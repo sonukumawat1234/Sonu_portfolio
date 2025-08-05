@@ -83,10 +83,10 @@ body {
     padding: 0.5rem 0;
 }
 
-/* .nav-link:hover,
-.nav-link.active {
+.nav-link:hover,
+link.active {
     color: #22c55e;
-} */
+}
 
 /* .nav-link.active::after {
     content: '';
@@ -728,4 +728,5 @@ section {
     .timeline::before {
         left: 20px;
     }
+
 }
