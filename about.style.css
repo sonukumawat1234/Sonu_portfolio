@@ -106,7 +106,7 @@ link.active {
 
 /* Hero Section */
 .hero-section {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #667eea 0%, #804eb3 100%);
     color: white;
     padding: 6rem 0;
     text-align: center;
@@ -730,3 +730,4 @@ section {
     }
 
 }
+
