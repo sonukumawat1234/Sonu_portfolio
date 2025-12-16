@@ -88,7 +88,8 @@ link.active {
     color: #22c55e;
 }
 
-/* .nav-link.active::after {
+/* .nav-link.active::after  */
+{
     content: '';
     position: absolute;
     bottom: 0;
@@ -97,7 +98,7 @@ link.active {
     height: 2px;
     background: linear-gradient(135deg, #22c55e, #16a34a);
     border-radius: 1px;
-} */
+}
 
 /* Main Content */
 .main-content {
@@ -106,7 +107,7 @@ link.active {
 
 /* Hero Section */
 .hero-section {
-    background: linear-gradient(135deg, #667eea 0%, #804eb3 100%);
+    background: linear-gradient(135deg, #21c056 0%, #804eb3 100%);
     color: white;
     padding: 6rem 0;
     text-align: center;
@@ -121,7 +122,7 @@ link.active {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="75" cy="75" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="50" cy="10" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="10" cy="60" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="90" cy="40" r="1" fill="rgba(255,255,255,0.1)"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
+
     opacity: 0.3;
 }
 
@@ -233,6 +234,7 @@ section {
 }
 
 .intro-stats {
+    
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -558,7 +560,7 @@ section {
 }
 
 .btn-primary:hover {
-       background: white;
+    background: white;
     color: #22c55e;
     transform: translateY(-3px);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
@@ -642,6 +644,7 @@ section {
             border-top: 1px solid #555;
             color: #999;
         }
+
 /* Responsive Design */
 @media (max-width: 1024px) {
     .intro-content {
@@ -766,7 +769,4 @@ section {
     .timeline::before {
         left: 20px;
     }
-
 }
-
-
