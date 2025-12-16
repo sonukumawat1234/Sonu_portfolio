@@ -424,7 +424,7 @@ section {
 
 /* Values Section */
 .values-section {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #21c056 0%, #804eb3 100%);
     color: white;
 }
 
@@ -516,7 +516,7 @@ section {
 
 /* CTA Section */
 .cta-section {
-    background: linear-gradient(135deg, #22c55e, #16a34a);
+    background: linear-gradient(135deg, #21c056 0%, #804eb3 100%);
     color: white;
     text-align: center;
 }
@@ -770,3 +770,4 @@ section {
         left: 20px;
     }
 }
+
